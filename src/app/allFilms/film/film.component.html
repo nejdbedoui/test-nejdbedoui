@@ -1,4 +1,4 @@
-<p 
->film n</p>
+<span class="badge badge-pill" [ngClass]="{'badge-success' :t.new,'badge-warning':!t.new}">film n{{t.nombreFilms()}}</p>
+    <br>
 {{t.photo}}
 <input type="checkbox" *ngIf="t.new >0" disabled>
